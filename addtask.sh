@@ -8,7 +8,7 @@ addtask() {
         "service": "casdemoapp",
         "stage": "production",
         "type": "sh.keptn.event.production.getslo.triggered",
-        "taskid": "'$2'",
+        "taskid": "'$1'",
         "runid": "'$2'"
     }
     '
@@ -19,5 +19,6 @@ addtask() {
 
     echo ""
 
-}
+}gi
 
+addtask $1 $2
