@@ -19,6 +19,6 @@ addtask() {
 
     echo ""
 
-}gi
+}
 
 addtask $1 $2
