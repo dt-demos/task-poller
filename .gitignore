@@ -1,0 +1,6 @@
+notused/
+logs/
+.DS_Store
+*.log
+*.db
+secrets.json

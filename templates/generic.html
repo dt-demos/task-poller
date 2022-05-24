@@ -1,0 +1,11 @@
+<!doctype html>
+<head>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+  <h2>{{ title }}</h2>
+  <p> <a href="tasks?filter=started">Tasks</a> | <a href="applog">App Log</a> | <a href="keptnlog">Keptn Log</a> | <a href="requestlog">Request Log</a> | <a href="resetlog">Reset Logs</a></p>
+  <hr>
+  <p>
+   {{ content }}
+  </p>
