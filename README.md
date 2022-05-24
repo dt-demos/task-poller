@@ -4,6 +4,16 @@ Proof of concept task poller for the use case of longer running tasks, like a mu
 
 This is one option to not have a pipeline tool or Cloud Automation sequence wait for several hours for the a test to complete.  And this is a workaround to tools that don't have a way to return status automatically to external tools such as an outbound webhook.
 
+# Example 
+
+Below is one use case
+
+<img src="images/flow.png" width="500"/>
+
+# Processing Logic
+
+Below is the logic currently implemented in this POC.
+
 <img src="images/call-flow.png" width="500"/>
 
 # Usage
